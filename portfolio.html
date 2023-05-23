@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            screens: {
+              xxs: "200px",
+              xs: "380px",
+            },
+          },
+        },
+      };
+    </script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header
+      class="flex items-center justify-between text-white px-[5%] py-[10px] bg-[#74C69D] w-full text-[20px] h-[123px]"
+    >
+      <img src="/imgs/Frame 4.png" alt="logo" />
+      <ul class="gap-[50px] hidden md:flex">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/portfolio.html">Portafliio</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+      <div class="block md:hidden">
+        <img src="/imgs/list 1.png" alt="lista" />
+      </div>
+    </header>
+
+    <section>
+      <div
+        class="flex flex-col w-full h-[162px] items-center justify-items-center py-[50px] px-[40%] py-[100px] mb-[20px]"
+      >
+        <h4 class="text-[#74C69D] text-[16px] tracking-[5px]">Works</h4>
+        <h1 class="text-[40px] font-[700]">Portfolio</h1>
+        <p class="text-[20px] font-[400] text-center">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+
+      <div
+        class="flex flex-col md:grid gap-y-[20px] gap-x-[8px] md:grid-cols-2 md:grid-rows-4 items-center justify-items-center py-[100px] px-[15%]"
+      >
+        <div class="bg-[#74C69D]">
+          <img src="/imgs/Group.png" alt="f1" />
+        </div>
+        <div>
+          <img src="/imgs/Frame 42.svg" alt="f2" />
+        </div>
+        <div>
+          <img src="/imgs/Frame 43.svg" alt="f3" />
+        </div>
+        <div>
+          <img src="/imgs/Frame 43 (1).svg" alt="f4" />
+        </div>
+        <div>
+          <img src="/imgs/Frame 43.png" alt="f5" />
+        </div>
+        <div>
+          <img src="/imgs/Frame 43 (2).svg" alt="f6" />
+        </div>
+        <div>
+          <img src="/imgs/dscdsc 1.svg" alt="f7" />
+        </div>
+        <div>
+          <img src="/imgs/5175975 1.png" alt="f8" />
+        </div>
+      </div>
+      <div class="flex items-center justify-center w-full pb-[100px]">
+        <button class="bg-[black] text-[white] w-[170px] h-[48px] rounded-md">
+          Learn More
+        </button>
+      </div>
+    </section>
+
+    <footer>
+      <div
+        class="flex justify-center flex-col text-center md:flex-row items-center md:justify-between bg-[#74C69D] w-full h-[125px] px-[5%]"
+      >
+        <img
+          class="min-[450px]:w-[400px] md:w-auto"
+          src="/imgs/Frame 30.png"
+          alt="social-media"
+        />
+        <p class="text-[white] text-lg">Start, 2023. All rights reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>

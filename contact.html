@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Contact</title>
+  </head>
+  <body>
+    <header
+      class="flex items-center justify-between text-white px-[5%] py-[10px] bg-[#74C69D] w-full text-[20px] h-[123px]"
+    >
+      <img src="/imgs/Frame 4.png" alt="logo" />
+      <ul class="gap-[50px] hidden md:flex">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/portfolio.html">Portafliio</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+      <img class="block md:hidden" src="/imgs/list 1.png" alt="lista" />
+    </header>
+
+    <section>
+      <div class="flex flex-col items-center w-full justify-center">
+        <h1 class="text-[20px] md:text-[40px] text-center font-[700] pt-[50px]">Contact Us</h1>
+        <p
+          class="text-center px-[15%] text-[20px] md:px-[40%] leading-[125%] pt-[16px]"
+        >
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+
+      <div class="flex flex-col-reverse md:flex-row w-full text-[20px] px-[5%] justify-center gap-[30px] pt-[50px] pb-[70px]">
+        <div class="flex  flex-col gap-[21px] justify-items-center    ">
+          <label class="border-solid " for="name">Name</label>
+          <input
+            class="bg-[#EEEEEE] border-[1px] border-black h-[38px] w-[375px] md:w-[570px]"
+            type="text"
+            name="name"
+            id="name"
+          />
+          <label for="email">Email</label>
+          <input class="bg-[#EEEEEE] border-[1px] border-black h-[38px]  w-[375px] md:w-[570px]" type="email" name="email" />
+          <label for="message">Message</label>
+          <textarea
+            class="h-[75px]  w-[375px] md:w-[570px]     bg-[#EEEEEE] border-[1px] border-black resize-none"
+            name="message"
+            cols="10"
+            rows="10"
+          ></textarea>
+          <button
+            class=" w-[375px] md:w-[570px] h-[48px] rounded-[5px] bg-[black] text-[white]"
+            type="submit"
+          >
+            Submit
+          </button>
+        </div>
+
+        <img class="min-[450px]:min-w-[375px]"src="/imgs/ghhgnhg 1.png" alt="map" />
+      </div>
+    </section>
+    <footer>
+          <div
+            class="flex justify-center flex-col text-center md:flex-row items-center md:justify-between bg-[#74C69D] w-full h-[125px] px-[5%]"
+          >
+            <img
+              class="min-[450px]:w-[400px] md:w-auto"
+              src="/imgs/Frame 30.png"
+              alt="social-media"
+            />
+            <p class="text-[white] text-lg">Start, 2023. All rights reserved</p>
+          </div>
+        </footer>
+  </body>
+</html>
